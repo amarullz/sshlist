@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+    <schema id="org.gnome.shell.extensions.sshlist" 
+        path="/org/gnome/shell/extensions/sshlist/">
+        <key name="command-line" type="s">
+            <default>"x-terminal-emulator -e 'ssh %s'"</default>
+            <summary>Launch Command</summary>
+            <description>Command line to run when profile item clicked</description>
+        </key>
+    </schema>
+</schemalist>
